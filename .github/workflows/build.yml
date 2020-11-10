@@ -13,6 +13,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: change mode
-      run: chmod a+x shell.sh
+      run: chmod a+x run.sh
     - name:  shell
       run: ./run.sh
